@@ -1,0 +1,7 @@
+#!/bin/sh
+mkdir -p $HOME/Downloads
+cd $HOME/Downloads
+rm -rf mullvad-browser
+curl -qLo mullvad-browser.tar.xz https://mullvad.net/en/download/browser/linux-x86_64/latest
+tar xvf mullvad-browser.tar.xz
+rm -rf mullvad-browser.tar.xz
