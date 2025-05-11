@@ -9,7 +9,16 @@ return {
 	    },
 	    indent = { enable = true },
 	    autotage = { enable = true },
-	    ensure_installed = { "c", "rust", },
+	    ensure_installed = {
+		"c",
+		"cpp",
+		"lua",
+		"vim",
+		"rust",
+		"kotlin",
+		"dart",
+		"markdown",
+	    },
 	    auto_installed = false
 	})
     end

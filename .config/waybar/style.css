@@ -1,25 +1,28 @@
 * {
-	font-family: monospace;
-	font-size: 15px;
+    font-family: monospace;
+    font-size: 15px;
 }
 window#waybar {
-	background-color: rgba(43, 48, 59, 0.5);
-	color: #ffffff;
+    background-color: rgba(43, 48, 59, 0.5);
+    color: #ffffff;
 }
 button:hover,
-button.active, 
 button.selected,
 button.urgent {
-	color: #ffffff;
-	box-shadow: inherit;
-	text-shadow: inherit;
-	background: none;
+    color: #ffffff;
+    box-shadow: inherit;
+    text-shadow: inherit;
+    background: none;
+}
+button.active {
+    color: #ffffff;
+    background-color: rgba(11, 11, 11, 0.2);
 }
 button {
-	padding: 0 5px;
-	color: #bfbfbf;
-	border: none;
+    padding: 0 5px;
+    color: #bfbfbf;
+    border: none;
 }
 #clock {
-	padding: 0 5px;
+    padding: 0 5px;
 }
