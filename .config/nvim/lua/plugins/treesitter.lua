@@ -13,7 +13,6 @@ return {
 		"c",
 		"cpp",
 		"lua",
-		"vim",
 		"rust",
 		"kotlin",
 		"dart",
