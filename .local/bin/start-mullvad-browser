@@ -1,3 +1,0 @@
-#!/bin/sh
-cd $HOME/Downloads/mullvad-browser
-./start-mullvad-browser.desktop
