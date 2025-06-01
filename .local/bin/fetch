@@ -7,11 +7,11 @@ C5='\033[38;5;4m'
 C6='\033[38;5;5m'
 NC='\033[0m'
 
-printf "${C1} _-----_${NC}         ┌───\n"
-printf "${C1}(       \\ ${NC}       │ ${C1}Gentoo GNU plus Linux${NC}\n"
-printf "${C1}\\    0   \\ ${NC}      │ ${C5}wm: dwm${NC}\n"
-printf "${C1} \\        )${NC}      │ ${C3}term: st${NC}\n"
-printf "${C1} /      _/${NC}       │ ${C2}shell: bash${NC}\n"
-printf "${C1}(     _-${NC}         │ ${C6}media: mpv${NC}\n"
-printf "${C1}\\____-${NC}           │ ${C4}editor: vim${NC}\n"
+printf "${C1} _-----_         ┌───${NC}\n"
+printf "${C1}(       \\ ${NC}       ${C1}│ Gentoo GNU plus Linux${NC}\n"
+printf "${C1}\\    0   \\ ${NC}      ${C5}│ wm: dwm${NC}\n"
+printf "${C1} \\        )${NC}      ${C3}│ term: st${NC}\n"
+printf "${C1} /      _/${NC}       ${C2}│ shell: bash${NC}\n"
+printf "${C1}(     _-${NC}         ${C6}│ media: mpv${NC}\n"
+printf "${C1}\\____-${NC}           ${C4}│ editor: vim${NC}\n"
 printf "\n"
