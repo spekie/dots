@@ -1,5 +1,5 @@
-xinput set-prop "9" "libinput Accel Profile Enabled" 0 1 0
-xwallpaper --zoom $XDG_DATA_HOME/wall.png &
 picom &
+xwallpaper --zoom $HOME/pics/1391040500941.png &
+xinput set-prop "9" "libinput Accel Profile Enabled" 0 1 0 &
 slstatus &
 exec dwm
