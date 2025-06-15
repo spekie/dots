@@ -11,11 +11,7 @@ return {
 	    autotage = { enable = true },
 	    ensure_installed = {
 		"c",
-		"cpp",
 		"lua",
-		"rust",
-		"kotlin",
-		"dart",
 		"markdown",
 	    },
 	    auto_installed = false
