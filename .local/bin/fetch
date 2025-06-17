@@ -8,7 +8,7 @@ C6='\033[38;5;5m'
 NC='\033[0m'
 
 printf "${C1}┌───${NC}\n"
-printf "${C1}│ Arch GNU/Linux${NC}\n"
+printf "${C1}│ $(uname -rs){NC}\n"
 printf "${C5}│ wm: dwm${NC}\n"
 printf "${C3}│ term: st${NC}\n"
 printf "${C2}│ shell: bash${NC}\n"
