@@ -1,8 +1,0 @@
-#!/bin/sh
-mkdir -p output
-for a in *.png *.jpg *.jpeg; do
-    if [ -f "$a" ]; then
-        b="${a%.*}.avif"
-        avifenc "$a" output/"$b"
-    fi
-done
