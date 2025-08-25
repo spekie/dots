@@ -1,0 +1,4 @@
+#!/bin/sh
+curl -Lo mullvad-browser.tar.xz https://mullvad.net/en/download/browser/linux-x86_64/latest
+bsdtar xvf mullvad-browser.tar.xz -C $HOME/dls/
+rm -f mullvad-browser.tar.xz

@@ -1,0 +1,14 @@
+#!/bin/sh
+printf "bitrate (e.g. 8k, 64k, 128k): "
+read bitrate
+
+for file in *.flac *.wav; do
+  [ -e "$file" ] || continue
+
+  base="${file%.*}"
+  output="${base}.ogg"
+
+  ffmpeg -i "$file" \
+    -b:a $bitrate \
+    "$output"
+done

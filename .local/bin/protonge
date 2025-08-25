@@ -1,0 +1,7 @@
+#!/bin/sh
+tarball_url=$(curl -s https://api.github.com/repos/GloriousEggroll/proton-ge-custom/releases/latest | grep browser_download_url | cut -d\" -f4 | grep .tar.gz)
+tarball_name=$(basename $tarball_url)
+curl -L $tarball_url -o $tarball_name
+mkdir -p $HOME/.steam/steam/compatibilitytools.d
+bsdtar -xvf $tarball_name -C $HOME/.steam/steam/compatibilitytools.d/
+rm -f $tarball_name

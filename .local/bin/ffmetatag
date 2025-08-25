@@ -1,0 +1,27 @@
+#!/bin/sh
+printf "title: "
+read title
+
+printf "artist: "
+read artist
+
+printf "album: "
+read album
+
+printf "track number: "
+read track
+
+for file in *.opus; do
+  [ -e "$file" ] || continue
+
+  output="${track}.opus"
+
+  ffmpeg -i "$file" -c copy \
+    -metadata title="$title" \
+    -metadata artist="$artist" \
+    -metadata album="$album" \
+    -metadata track="$track" \
+    "$output"
+
+  track=`expr "$track" + 1`
+done

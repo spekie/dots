@@ -1,0 +1,3 @@
+#!/bin/sh
+echo ctrl c to stop
+ffmpeg -loglevel fatal -video_size 1280x720 -framerate 30 -f x11grab -i :0.0 -f pulse -i default -c:v libx264 -preset veryfast -c:a aac -strict experimental vid.mp4

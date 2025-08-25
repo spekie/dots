@@ -1,0 +1,9 @@
+#!/bin/sh
+printf "file: "
+read file
+
+printf "subs: "
+read subs
+
+mkdir -p output
+mkvmerge -o output/"$file" "$file" "$subs" 
