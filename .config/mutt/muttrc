@@ -1,0 +1,3 @@
+set folder = "imaps://spekie@cock.li@mail.cock.li:993"
+set spoolfile = "+INBOX"
+color normal black default
