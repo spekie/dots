@@ -1,0 +1,18 @@
+* {
+	font-family: monospace;
+	font-size: 13px;
+	background-color: transparent;
+	border: none;
+}
+#workspaces button {
+	padding: 0 5px;
+	color: #999;
+}
+#workspaces button.active {
+	color: #ffffff;
+}
+#cpu,
+#memory,
+#clock {
+	color: #ffffff;
+}
