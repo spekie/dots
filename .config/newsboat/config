@@ -1,0 +1,5 @@
+browser "mpv %u"
+bind-key j down
+bind-key k up
+bind-key l open
+bind-key h quit

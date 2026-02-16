@@ -1,0 +1,15 @@
+#!/bin/sh
+for file in *.mp4 *.mkv; do
+  [ -e "$file" ] || continue
+
+  base="${file%.*}"
+  output="${base}.webm"
+
+  ffmpeg -i "$file" \
+    -c:v vp9 \
+    -crf 30 \
+    -b:v 1M \
+    -c:a libopus \
+    -b:a 64k \
+    "$output"
+done

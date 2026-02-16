@@ -1,0 +1,10 @@
+set folder = "imaps://user@example.com@mail.example.com:993"
+set smtp_url = "smtp://user@example.com@mail.example.com:587"
+set from = "user@example.com"
+set realname = "user"
+set spoolfile = "+INBOX"
+set record = "+Sent"
+set postponed = "+Drafts"
+color normal white default
+set imap_pass="password"
+set smtp_pass="password"
