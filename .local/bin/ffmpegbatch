@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 srcExt=$1
 destExt=$2
 srcDir=$3

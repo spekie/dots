@@ -5,4 +5,3 @@ set number
 set noswapfile
 set nobackup
 set tabstop=4
-colo bw

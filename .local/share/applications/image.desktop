@@ -1,0 +1,4 @@
+[Desktop Entry]
+Type=Application
+Name=image
+Exec=nsxiv -ba %f

@@ -1,6 +1,0 @@
-#!/bin/sh
-tarball_url=$(curl -s https://api.github.com/repos/GloriousEggroll/proton-ge-custom/releases/latest | grep browser_download_url | cut -d\" -f4 | grep .tar.gz)
-tarball_name=$(basename $tarball_url)
-curl -# -L $tarball_url -o $tarball_name --no-progress-meter
-tar -xvf $tarball_name -C "$XDG_DATA_HOME"/Steam/compatibilitytools.d/
-rm $tarball_name
