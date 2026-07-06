@@ -1,2 +1,2 @@
 # dotfiles
-![](.png)
+![](scrot.png)

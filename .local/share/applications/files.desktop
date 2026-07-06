@@ -1,4 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=files
-Exec=st -e lf %u

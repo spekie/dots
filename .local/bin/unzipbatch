@@ -1,5 +1,0 @@
-#!/bin/sh
-for file in *.zip; do
-  [ -e "$file" ] || continue
-  bsdtar xvf "$file"
-done

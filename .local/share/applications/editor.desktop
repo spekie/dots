@@ -1,4 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=editor
-Exec=st -e vim %f
