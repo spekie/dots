@@ -1,4 +1,0 @@
-#--restrict-filenames 
---embed-metadata
--o %(title)s.%(ext)s
-#-o %(playlist_index)s.%(ext)s

@@ -1,7 +1,8 @@
 syntax on
 filetype plugin on
-set viminfo='10,<100,:100,%,n~/.cache/vim/viminfo
 set number
+set ignorecase
 set noswapfile
 set nobackup
 set tabstop=4
+set shiftwidth=4
